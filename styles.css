@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body {
+    background: #8EC3B0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+header {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.quote-area {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.quote-area i {
+    font-size: 24px;
+    color: #8EC3B0;
+    margin-right: 5px;
+}
+
+#quotes {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.author {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.author span {
+    color: #8EC3B0;
+    font-style: italic;
+}
+
+.name {
+    font-weight: 600;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid grey;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-btn {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.left-btn li {
+    margin-right: 10px;
+}
+
+.left-btn li i {
+    font-size: 20px;
+    color: #8EC3B0;
+    cursor: pointer;
+}
+
+#quote-btn {
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color: #8EC3B0;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#quote-btn:hover {
+    background-color: #6EA79F;
+}
+
+#quote-btn:loading{
+opacity: 0.7;
+pointer-events: none;
+}
